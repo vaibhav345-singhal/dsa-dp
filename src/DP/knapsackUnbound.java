@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class knapsackUnbound {
 
-    // here we have multiple choices like we can take one item multiple times
+    /// here we have multiple choices like we can take one item multiple times
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

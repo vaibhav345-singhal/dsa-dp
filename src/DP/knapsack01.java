@@ -3,8 +3,10 @@ package DP;
 import java.util.Scanner;
 
 public class knapsack01 {
-    // main point h ek val ek bar hi use kr skte h multiple bar ni like coin change ,
-    // its like target sum subset
+    /**
+     * main point h ek val ek bar hi use kr skte h multiple bar ni like coin change ,
+     * its like target sum subset
+     */
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();

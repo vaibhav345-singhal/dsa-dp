@@ -3,12 +3,11 @@ package DP;
 import java.util.Scanner;
 
 public class CoinChangeCombination {
-    /*
-     count all combinations not permutations to generate amount
-     means for 2 3 4 coins array ans is 2 {(2,2,3),(2,5)}
-     permutations can be 223 , 322, 232, 25,52 like that
-     supply is infinite of coins
-    */
+
+     /// count all combinations not permutations to generate amount
+     /// means for 2 3 4 coins array ans is 2 {(2,2,3),(2,5)}
+     /// permutations can be 223 , 322, 232, 25,52 like that
+     /// supply is infinite of coins
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

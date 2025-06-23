@@ -3,6 +3,25 @@ package DP;
 import java.util.Scanner;
 
 public class ClimbingStairsWithVariableJumps {
+    ///        IP
+    ///        13
+    ///        5
+    ///        5
+    ///        2
+    ///        4
+    ///        1
+    ///        5
+    ///        9
+    ///        8
+    ///        6
+    ///        3
+    ///        8
+    ///        9
+    ///        1
+    ///
+    ///        Op
+    ///        2044
+    ///
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -24,19 +43,3 @@ public class ClimbingStairsWithVariableJumps {
         System.out.println(dp[0]);
     }
 }
-//IP
-//        13
-//        5
-//        5
-//        2
-//        4
-//        1
-//        5
-//        9
-//        8
-//        6
-//        3
-//        8
-//        9
-//        1
-//Op      2044

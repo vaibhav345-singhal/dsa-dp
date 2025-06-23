@@ -10,13 +10,13 @@ public class NotConsecutive1sAllowed {
         System.out.println(countString(n));
         System.out.println(countString2(n));
     }
+    /// we can take two arrays ek binary strings jo 0 p khtm ho rhe unke liye
+    /// aur ek wo jo 1 p khtm ho rhe unke liye
+    /// aur agr dhyan s dekhe to array lene ki jrurt hi nhi kyuki hme sirf previous
+    /// value chahiye jo hum variable s track kr skte h
+    /// agle method m dekho
 
     private static int countString(int n) {
-        // we can take two arrays ek binary strings jo 0 p khtm ho rhe unke liye
-        // aur ek wo jo 1 p khtm ho rhe unke liye
-        // aur agr dhyan s dekhe to array lene ki jrurt hi nhi kyuki hme sirf previous
-        // value chahiye jo hum variable s track kr skte h
-        //agle method m dekho
         int[] dp0 = new int[n + 1];
         int[] dp1 = new int[n + 1];
 
